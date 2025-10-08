@@ -510,11 +510,11 @@
                     Freiwillige Beiträge sind willkommen.
                 </div>
             </div>
-            <form class="contact-form">
-                <input type="text" placeholder="Name" required>
-                <input type="email" placeholder="E-Mail" required>
-                <input type="text" placeholder="Betreff">
-                <textarea placeholder="Deine Nachricht" required></textarea>
+            <form class="contact-form" action="https://formspree.io/f/mblzaave" method="POST">
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="email" name="email" placeholder="E-Mail" required>
+                <input type="text" name="subject" placeholder="Betreff">
+                <textarea name="message" placeholder="Deine Nachricht" required></textarea>
                 <button type="submit" class="submit-button">Nachricht senden</button>
             </form>
         </div>
